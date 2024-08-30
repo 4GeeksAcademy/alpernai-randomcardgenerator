@@ -1,1 +1,48 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  display: inline-block;
+  background: white;
+  height: 375px;
+  width: 250px;
+  padding: 10px;
+  border: 1px;
+  border-radius: 5px;
+  position: relative;
+}
+
+#top-suit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  padding-left: 10px;
+}
+
+.number {
+  font-size: 50px;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: block;
+}
+
+#bottom-suit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 50px;
+  padding-right: 10px;
+}
+
+.red {
+  color: red;
+}
